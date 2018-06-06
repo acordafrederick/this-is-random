@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+}
+
+h1 {
+    height: 200vh;
+    width: 100vw;
+    line-height: 200vh;
+    text-align: center;
+    font-size: 15vw;
+}
+
+span {
+    position: absolute;
+    left: 0;
+    top: 50vh;
+    height: 1vh;
+    width: 1vh;
+    background: #000;
+}
+
+.background {
+    background: url("../images/DSC_6728.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    transition: 5s all;
+}
